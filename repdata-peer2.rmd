@@ -1,0 +1,26 @@
+---
+title: "Peer Assignment 2"
+author: "Bernardo Najlis"
+date: "October 21, 2015"
+output: html_document
+---
+
+###Download source data files
+
+These are the urls and code to download the source data for the analysis. I used *setInternet2(TRUE)* to allow knitr to download files with https. The code is commented out so the files are not downloaded each time this rmd file gets knitted.
+```{r}
+#setInternet2(TRUE)
+# Data file
+#download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2", "repdata%2Fdata%2FStormData.csv.bz2")
+
+# Data documentation files
+#download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf", "repdata%2Fpeer2_doc%2Fpd01016005curr.pdf")
+#download.file("https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf", "repdata%2Fpeer2_doc%2FNCDC%20Storm%20Events-FAQ%20Page.pdf")
+```
+
+##Additional Information
+
+###Environment Information
+```{r}
+sessionInfo()
+```
